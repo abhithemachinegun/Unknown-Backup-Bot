@@ -132,13 +132,13 @@
 #             try:
 #                 file_name = f"{secrets.token_hex(2)}.{mime_type.split('/')[1]}"
 #             except (IndexError, AttributeError):
-#                 file_name = f"{secrets.token_hex(2)}.unknown"
+#                 file_name = f"{secrets.token_hex(2)}.AtoZ UPDATES"
 #     else:
 #         if file_name:
 #             mime_type = mimetypes.guess_type(file_id.file_name)
 #         else:
 #             mime_type = "application/octet-stream"
-#             file_name = f"{secrets.token_hex(2)}.unknown"
+#             file_name = f"{secrets.token_hex(2)}.AtoZ UPDATES"
 
 #     return web.Response(
 #         status=206 if range_header else 200,
