@@ -25,8 +25,8 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[                                       
-                    InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url="https://t.me/Unknown_Cinema"), 
-                    InlineKeyboardButton('Rᴜʟᴇs', url="https://telegra.ph/How-to-get-movies--series-from-Bot-10-14-2")
+                    InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url="https://t.me/atozflixbot"), 
+                    InlineKeyboardButton('Rᴜʟᴇs', url="https://t.me/atozflixbot")
                 ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -34,7 +34,7 @@ async def start(client, message):
         await asyncio.sleep(2) # 😢 https://github.com/EvamariaTG/EvaMaria/blob/master/plugins/p_ttishow.py#L17 😬 wait a bit, before checking.
         if not await db.get_chat(message.chat.id):
             total=await client.get_chat_members_count(message.chat.id)
-            await client.send_message(LOG_CHANNEL, script.LOG_TEXT_G.format(message.chat.title, message.chat.id, total, "Unknown"))       
+            await client.send_message(LOG_CHANNEL, script.LOG_TEXT_G.format(message.chat.title, message.chat.id, total, "Abhi"))       
             await db.add_chat(message.chat.id, message.chat.title)
         return 
     if not await db.is_user_exist(message.from_user.id):
@@ -44,7 +44,7 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[                                         
-                    InlineKeyboardButton('Aɴʏ Qᴜᴇʀʏ', url="t.me/Unknown_Support_Bot"), 
+                    InlineKeyboardButton('Aɴʏ Qᴜᴇʀʏ', url="t.me/atozflixbot"), 
                     InlineKeyboardButton('Sᴛᴀᴛs', callback_data='stats')
 
                 ]]
@@ -90,7 +90,7 @@ async def start(client, message):
         buttons = buttons = [[
                     InlineKeyboardButton('Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[                                         
-                    InlineKeyboardButton('Aɴʏ Qᴜᴇʀʏ', url="t.me/Unknown_Support_Bot"), 
+                    InlineKeyboardButton('Aɴʏ Qᴜᴇʀʏ', url="t.me/atozflixbot"), 
                     InlineKeyboardButton('Sᴛᴀᴛs', callback_data='stats')
 
                 ]]
