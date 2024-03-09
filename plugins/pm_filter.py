@@ -77,8 +77,8 @@ async def pm_text(bot, message):
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
     if user_id in ADMINS: return # ignore admins
     await message.reply_text(
-         text=f"<b>ʜᴇʏ {user} 😍 ,\n\nʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ᴍᴏᴠɪᴇs ꜰʀᴏᴍ ʜᴇʀᴇ. ʀᴇǫᴜᴇsᴛ ɪᴛ ɪɴ ᴏᴜʀ <a href=https://t.me/Movie_Studio_Request>ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ</a> ᴏʀ ᴄʟɪᴄᴋ ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ 👇</b>",   
-         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ", url=f"https://t.me/Movie_Studio_Request")]])
+         text=f"<b>ʜᴇʏ {user} 😍 ,\n\nʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ᴍᴏᴠɪᴇs ꜰʀᴏᴍ ʜᴇʀᴇ. ʀᴇǫᴜᴇsᴛ ɪᴛ ɪɴ ᴏᴜʀ <a href=https://t.me/atozmoviesflix>ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ</a> ᴏʀ ᴄʟɪᴄᴋ ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ 👇</b>",   
+         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ", url=f"https://t.me/atozmoviesflix")]])
     )
     await bot.send_message(
         chat_id=LOG_CHANNEL,
@@ -134,7 +134,7 @@ async def next_page(bot, query):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("Hᴏᴡ Tᴏ Sᴇᴀʀᴄʜ", url="https://t.me/+CRxXz6AAWTQ4ZWFl"),
+            InlineKeyboardButton("Hᴏᴡ Tᴏ Sᴇᴀʀᴄʜ", url="https://t.me/howtoopen113"),
             InlineKeyboardButton("Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
         ])
     else:
@@ -147,7 +147,7 @@ async def next_page(bot, query):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("Hᴏᴡ Tᴏ Sᴇᴀʀᴄʜ", url="https://t.me/+CRxXz6AAWTQ4ZWFl"),
+            InlineKeyboardButton("Hᴏᴡ Tᴏ Sᴇᴀʀᴄʜ", url="https://t.me/howtoopen113"),
             InlineKeyboardButton("Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
         ])
     try:
@@ -363,7 +363,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("Hᴏᴡ Tᴏ Sᴇᴀʀᴄʜ", url="https://t.me/+CRxXz6AAWTQ4ZWFl"),
+            InlineKeyboardButton("Hᴏᴡ Tᴏ Sᴇᴀʀᴄʜ", url="https://t.me/howtoopen113"),
             InlineKeyboardButton("Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
         ])
     else:
@@ -376,7 +376,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("Hᴏᴡ Tᴏ Sᴇᴀʀᴄʜ", url="https://t.me/+CRxXz6AAWTQ4ZWFl"),
+            InlineKeyboardButton("Hᴏᴡ Tᴏ Sᴇᴀʀᴄʜ", url="https://t.me/howtoopen113"),
             InlineKeyboardButton("Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
         ])
 
@@ -542,7 +542,7 @@ async def filter_seasons_cb_handler(client: Client, query: CallbackQuery):
             for file in files
         ]
         btn.insert(0, [
-            InlineKeyboardButton("Hᴏᴡ Tᴏ Sᴇᴀʀᴄʜ", url="https://t.me/+CRxXz6AAWTQ4ZWFl"),
+            InlineKeyboardButton("Hᴏᴡ Tᴏ Sᴇᴀʀᴄʜ", url="https://t.me/howtoopen113"),
             InlineKeyboardButton("Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
         ])
     else:
@@ -555,7 +555,7 @@ async def filter_seasons_cb_handler(client: Client, query: CallbackQuery):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("Hᴏᴡ Tᴏ Sᴇᴀʀᴄʜ", url="https://t.me/+CRxXz6AAWTQ4ZWFl"),
+            InlineKeyboardButton("Hᴏᴡ Tᴏ Sᴇᴀʀᴄʜ", url="https://t.me/howtoopen113"),
             InlineKeyboardButton("Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
         ])
         
@@ -681,7 +681,7 @@ async def filter_quality_cb_handler(client: Client, query: CallbackQuery):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("Hᴏᴡ Tᴏ Sᴇᴀʀᴄʜ", url="https://t.me/+CRxXz6AAWTQ4ZWFl"),
+            InlineKeyboardButton("Hᴏᴡ Tᴏ Sᴇᴀʀᴄʜ", url="https://t.me/howtoopen113"),
             InlineKeyboardButton("Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
         ])
     else:
@@ -694,7 +694,7 @@ async def filter_quality_cb_handler(client: Client, query: CallbackQuery):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("Hᴏᴡ Tᴏ Sᴇᴀʀᴄʜ", url="https://t.me/+CRxXz6AAWTQ4ZWFl"),
+            InlineKeyboardButton("Hᴏᴡ Tᴏ Sᴇᴀʀᴄʜ", url="https://t.me/howtoopen113"),
             InlineKeyboardButton("Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
         ])
 
@@ -1327,7 +1327,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                  InlineKeyboardButton('Jᴏɪɴ Cʜᴀɴɴᴇʟ', url=link.invite_link),
                  InlineKeyboardButton("Vɪᴇᴡ Sᴛᴀᴛᴜs", url=f"{query.message.link}")
                ],[
-                 InlineKeyboardButton("Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ Lɪɴᴋ", url="https://t.me/+Q3Y_XS79svY3NDI1")
+                 InlineKeyboardButton("Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ Lɪɴᴋ", url="https://t.me/atozmoviesflix")
                ]]
         if query.from_user.id in ADMINS:
             user = await client.get_users(from_user)
@@ -1352,7 +1352,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                  InlineKeyboardButton('Jᴏɪɴ Cʜᴀɴɴᴇʟ', url=link.invite_link),
                  InlineKeyboardButton("Vɪᴇᴡ Sᴛᴀᴛᴜs", url=f"{query.message.link}")
                ],[
-                 InlineKeyboardButton("Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ Lɪɴᴋ", url="https://t.me/+Q3Y_XS79svY3NDI1")
+                 InlineKeyboardButton("Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ Lɪɴᴋ", url="https://t.me/atozmoviesflix")
                ]]
         if query.from_user.id in ADMINS:
             user = await client.get_users(from_user)
@@ -1794,7 +1794,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "owner_info":
         buttons = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="https://t.me/Abhishekrathoree")
+                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="https://t.me/atozflixbot")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
@@ -1826,7 +1826,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "shortlink_info":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="http://t.me/sauravjoshi2007")
+                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="http://t.me/atozflixbot")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
@@ -2008,7 +2008,7 @@ async def auto_filter(client, msg, spoll=False):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("Hᴏᴡ Tᴏ Sᴇᴀʀᴄʜ", url="https://t.me/+CRxXz6AAWTQ4ZWFl"),
+            InlineKeyboardButton("Hᴏᴡ Tᴏ Sᴇᴀʀᴄʜ", url="https://t.me/howtoopen113"),
             InlineKeyboardButton("Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
         ])
     else:
@@ -2021,7 +2021,7 @@ async def auto_filter(client, msg, spoll=False):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("Hᴏᴡ Tᴏ Sᴇᴀʀᴄʜ", url="https://t.me/+CRxXz6AAWTQ4ZWFl"),
+            InlineKeyboardButton("Hᴏᴡ Tᴏ Sᴇᴀʀᴄʜ", url="https://t.me/howtoopen113"),
             InlineKeyboardButton("Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
         ])
     if offset != "":
