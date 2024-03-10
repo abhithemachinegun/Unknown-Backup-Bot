@@ -38,8 +38,8 @@ async def save_group(bot, message):
             await bot.leave_chat(message.chat.id)
             return
         buttons = [[
-                    InlineKeyboardButton('Rᴜʟᴇs', url="https://telegra.ph/How-to-get-movies--series-from-Bot-10-14-2"),
-                    InlineKeyboardButton('Hᴏᴡ Tᴏ Usᴇ Mᴇ', url="https://t.me/+CRxXz6AAWTQ4ZWFl")
+                    InlineKeyboardButton('Rᴜʟᴇs', url="https://t.me/howtoopen113"),
+                    InlineKeyboardButton('Hᴏᴡ Tᴏ Usᴇ Mᴇ', url="https://t.me/howtoopen113")
                   ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         d = await message.reply_text(
@@ -63,8 +63,8 @@ async def save_group(bot, message):
                                                  caption=(script.MELCOW_ENG.format(u.mention, message.chat.title)),
                                                  reply_markup=InlineKeyboardMarkup(
                                                                          [[
-                                                                           InlineKeyboardButton('Rᴜʟᴇs', url="https://telegra.ph/How-to-get-movies--series-from-Bot-10-14-2"),
-                                                                           InlineKeyboardButton('Hᴏᴡ Tᴏ Usᴇ Mᴇ', url="https://t.me/+CRxXz6AAWTQ4ZWFl")
+                                                                           InlineKeyboardButton('Rᴜʟᴇs', url="https://t.me/howtoopen113"),
+                                                                           InlineKeyboardButton('Hᴏᴡ Tᴏ Usᴇ Mᴇ', url="https://t.me/howtoopen113")
                                                                          ]]
                                                  ),
                                                  parse_mode=enums.ParseMode.HTML
