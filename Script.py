@@ -210,8 +210,9 @@ Nᴀᴍᴇ - {}"""
     CAPTION = """
 <b><code><a href="https://t.me/atozmoviesflix">{file_name}</a></code>
 
-@atozmoviesflix
-</b>"""
+➟ <a href="https://telegra.ph/How-To-Fix-Sound-Issue-01-14">Fix Sound Issue</a>
+
+➟ <a href="https://telegra.ph/Donate-Us-01-14">Donate Us</a></b>""" 
     
     MODS_TXT = """Yᴏᴜ Cᴀɴ Tʀʏ Aʟʟ Tʜᴇsᴇ Cᴏᴏʟ Fᴇᴀᴛᴜʀᴇs Fʀᴏᴍ Bᴇʟᴏᴡ Oᴘᴛɪᴏɴ..!!!"""
 
