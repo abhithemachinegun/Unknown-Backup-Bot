@@ -212,7 +212,7 @@ Nᴀᴍᴇ - {}"""
 
 ➟ <a href="https://telegra.ph/How-To-Fix-Sound-Issue-01-14">Fix Sound Issue</a>
 
-➟ <a href="https://telegra.ph/Donate-Us-01-14">Donate Us</a></b>""" 
+➟ <a href="https://telegra.ph/Join-Premium-Group-03-14">Join Premium (No Ads)🚫</a></b>""" 
     
     MODS_TXT = """Yᴏᴜ Cᴀɴ Tʀʏ Aʟʟ Tʜᴇsᴇ Cᴏᴏʟ Fᴇᴀᴛᴜʀᴇs Fʀᴏᴍ Bᴇʟᴏᴡ Oᴘᴛɪᴏɴ..!!!"""
 
